@@ -243,7 +243,7 @@ def play():
 root1 = tk.Tk()
 pygame.init()
 
-pygame.mixer.music.load("musics/Beloved(chosic.com).mp3")
+pygame.mixer.music.load("Beloved(chosic.com).mp3")
 pygame.mixer.music.play(loops = 0)
 center_window(root1, 400, 660)
 root1.configure(bg="light blue")
@@ -258,7 +258,7 @@ def displayimage():
 
 image_labell = None
 
-imag = Image.open("pics/hira.png")
+imag = Image.open("hira.png")
 pico = ImageTk.PhotoImage(imag)
 
 def display():
